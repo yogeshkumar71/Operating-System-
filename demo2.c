@@ -21,15 +21,13 @@ while(low<=high){
     }
     else if(a[mid]<item){
         low=mid+1;
-        high=n-1;
     }
-    else(a[mid]>item){
+    else{
         high=mid-1;
-        low=0;
     }
 }
 if(pos!=-1)
-    printf("\nElement found at %d",pos);
+    printf("\nElement found at %d",pos+1);
 else
     printf("\nElement not found");
 return 0;
