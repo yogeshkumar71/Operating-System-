@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+    printf("USN:1BF24CS337\n");
     int n;
     printf("Enter the number of processes: ");
     scanf("%d",&n);
@@ -45,3 +46,4 @@ int main()
     printf("\nAvgerage WaitingTime:%.2f",AVGWT);
     return 0;
 }
+
