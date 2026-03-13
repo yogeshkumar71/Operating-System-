@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+printf("USN:1BF24CS337\n");
 int i,j,n,item;
 int a[10];
 int pos=-1,poss=-1;
@@ -22,3 +23,4 @@ else
     printf("\nElement has duplicate");
 return 0;
 }
+
