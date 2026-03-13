@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+printf("USN:1BF24CS337\n");
 int i,n,a[10];
 printf("Enter the lenght of elements: ");
 scanf("%d",&n);
@@ -15,3 +16,4 @@ for(i=0;i<n;i++){
 printf("Smallest element:%d",min);
 return 0;
 }
+
