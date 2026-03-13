@@ -2,6 +2,7 @@
 
 int main()
 {
+    printf("USN:1BF24CS337\n");
     int n;
     int at[10], bt[10], rt[10];
     int ct[10], tat[10], wt[10];
@@ -81,3 +82,4 @@ int main()
 
     return 0;
 }
+
